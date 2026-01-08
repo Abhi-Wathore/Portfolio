@@ -9,7 +9,8 @@ This project showcases my skills, projects, and experience as a **Software Devel
 > (Add your deployed URL here once live)
 
 ```
-https://your-portfolio-url.com
+https://abhi-wathore.github.io/Portfolio/
+
 ```
 
 ---
