@@ -61,8 +61,8 @@ export function Contact() {
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
     } catch (error: any) {
-      console.error('Supabase insert failed:', error);
-      alert(error?.message ?? 'Unknown Supabase error');
+      console.error('Supabase error:', error);
+      alert(error?.message || JSON.stringify(error));
       setSubmitStatus('error')
     }
   };
