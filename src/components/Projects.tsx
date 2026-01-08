@@ -17,7 +17,7 @@ const projects: Project[] = [
     description: 'Modern, responsive portfolio website showcasing projects and skills. Features dark mode support, smooth animations, contact form with Supabase integration, and SEO optimization.',
     image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
     techStack: ['React.js', 'TypeScript', 'Tailwind CSS', 'Vite'],
-    liveUrl: '#',
+    liveUrl: 'https://abhi-wathore.github.io/Portfolio/',
     githubUrl: 'https://github.com/Abhi-Wathore',
   },
   {
