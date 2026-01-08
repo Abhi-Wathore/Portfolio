@@ -220,7 +220,7 @@ export function Contact() {
                   className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white rounded-lg font-semibold transition-colors"
                 >
                   {isSubmitting ? (
-                    'Sending...'
+                    'Message Send'
                   ) : (
                     <>
                       <Send size={20} />
