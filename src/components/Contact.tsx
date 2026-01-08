@@ -60,11 +60,10 @@ export function Contact() {
       setSubmitStatus('success');
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
+    } catch (error: any) {
+      console.error('Supabase insert failed:', error);
+      alert(error?.message ?? 'Unknown Supabase error');
+      setSubmitStatus('error')
     }
   };
 
